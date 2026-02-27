@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import { Link } from 'react-router-dom'
 
 function HomePage() {
 
@@ -15,7 +16,7 @@ function HomePage() {
             </div>
       
             <div className="card">
-            <Button onClick={() => window.location.href = 'components/ProductListing'} className="card">
+            <Button as={Link} to="/ProductListing" className="card">
             Shop
             </Button>
             </div>
