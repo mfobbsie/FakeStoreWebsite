@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Spinner from "react-bootstrap/Spinner";
 import Button from "react-bootstrap/Button";
@@ -123,6 +123,14 @@ function ProductDetails() {
       <p>Category: {category}</p>
       <Button onClick={handleAddToCart} variant="primary">
         Add to Cart
+      </Button>
+      <Button
+        as={Link}
+        to={`/edit-product/${id}`}
+        variant="warning"
+        className="ms-2"
+      >
+        Edit Product
       </Button>
       <Button
         onClick={handleDeleteProduct}
