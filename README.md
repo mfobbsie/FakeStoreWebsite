@@ -71,7 +71,8 @@ Homepage Screenshot
 <img width="531" height="260" alt="Screenshot 2026-02-26 at 10 06 25 PM" src="https://github.com/user-attachments/assets/0ec6a7a8-deba-4eb7-9950-b4f9d1729cda" />
 
 Product Listing Screenshot  
-<img width="531" height="260" alt="Screenshot 2026-02-26 at 10 06 25 PM" src="https://github.com/user-attachments/assets/0ec6a7a8-deba-4eb7-9950-b4f9d1729cda" />
+<img width="1039" height="847" alt="Screenshot 2026-02-26 at 10 07 12 PM" src="https://github.com/user-attachments/assets/4490f5c5-9686-40e6-adc8-5ad70e5bfe92" />
+
 
 Product Details Screenshot  
 <img width="1058" height="897" alt="Screenshot 2026-02-26 at 10 07 37 PM" src="https://github.com/user-attachments/assets/e26cb5cf-e5b8-46ce-91fb-a05cae8f1c3c" />
