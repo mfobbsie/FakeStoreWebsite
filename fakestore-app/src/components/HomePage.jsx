@@ -1,29 +1,31 @@
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button'
-import { Link } from 'react-router-dom'
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 
 function HomePage() {
-
   return (
     <Container>
-        <Row>
-          <Col>
-            <div>
+      <Row>
+        <Col>
+          <div>
             <h1>Welcome to FakeStoreApp</h1>
-            <p>This is a simple React application that demonstrates the use of Vite and React together.</p>
-            </div>
-      
-            <div className="card">
-            <Button as={Link} to="/ProductListing" className="card">
-            Shop
+            <p>
+              This is a simple React application that demonstrates the use of
+              Vite and React together.
+            </p>
+          </div>
+
+          <div className="card">
+            <Button as={Link} to="/products" className="card">
+              Shop
             </Button>
-            </div>
+          </div>
         </Col>
       </Row>
     </Container>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
